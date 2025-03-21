@@ -1,0 +1,102 @@
+
+### **Cloud Storage Services**
+1. **Google Drive** (Experiments 1, 2, 19)  
+   - Web interface, Desktop App, Google Drive API (Python).  
+2. **Dropbox** (Experiments 3, 7, 10, 11, 14, 24)  
+   - Web interface, Desktop App, Delta Encoding.  
+3. **MEGA** (Experiment 4)  
+   - Web interface, Desktop/Mobile Apps (end-to-end encryption).  
+4. **pCloud** (Experiment 5)  
+   - Web interface, Desktop App (client-side encryption).  
+5. **CloudMe** (Experiment 6)  
+   - Web interface, Desktop App.  
+6. **OneDrive** (Experiments 13, 17, 18)  
+   - Desktop App, Web interface.  
+7. **TeamDrive** (Experiments 8, 9, 23)  
+   - Desktop Client, Web App.  
+8. **TeraBox** (Experiment 21)  
+   - Web interface, Desktop App.  
+9. **OpenDrive** (Experiment 22)  
+   - Web interface, Desktop App.  
+10. **Icedrive** (Experiment 25)  
+    - Web interface (built-in encryption).  
+
+---
+
+### **Security & Encryption Tools**
+1. **VeraCrypt** (Experiment 14)  
+   - File encryption for Dropbox.  
+2. **Cryptomator** (Experiment 15)  
+   - End-to-end encryption for cloud storage.  
+3. **Duplicati** (Experiments 3, 20)  
+   - Encrypted backups with deduplication.  
+4. **BleachBit** (Experiment 24)  
+   - Secure file deletion from Dropbox.  
+5. **Authenticator Apps** (Experiment 23)  
+   - Google Authenticator, Microsoft Authenticator, or Authy (for 2FA in TeamDrive).  
+
+---
+
+### **Network Analysis & Attack Tools**
+1. **Wireshark** (Experiments 4, 5, 6, 10, 17, 24)  
+   - Network traffic monitoring and MITM attack detection.  
+2. **Ettercap/Bettercap** (Experiment 10)  
+   - Simulating MITM attacks (Kali Linux).  
+3. **Kali Linux** (Experiment 10)  
+   - Virtual machine for ethical hacking.  
+
+---
+
+### **Backup & Synchronization Tools**
+1. **Rclone** (Experiment 16)  
+   - Automation of cloud backups/sync between services.  
+2. **Duplicati** (Experiments 3, 20)  
+   - Encrypted cloud backups.  
+3. **Google Drive for Desktop** (Experiments 1, 2)  
+   - Folder sync and backup.  
+
+---
+
+### **Data Integrity & Recovery Tools**
+1. **Recuva** (Experiment 13)  
+   - Recovering deleted OneDrive files.  
+2. **HashCalc** (Experiment 18)  
+   - Checksum verification for cloud uploads/downloads.  
+
+---
+
+### **Performance Testing Tools**
+1. **Apache JMeter** (Experiment 12)  
+   - Measuring upload/download speeds of cloud services.  
+
+---
+
+### **Compression & Deduplication Tools**
+1. **7-Zip/WinRAR** (Experiment 3)  
+   - File compression for storage optimization.  
+
+---
+
+### **Programming & APIs**
+1. **Python** (Experiments 2, 16)  
+   - Google Drive API integration, Rclone automation.  
+2. **Google Drive API Libraries** (Experiment 2)  
+   - `google-auth`, `google-api-python-client`, etc.  
+
+---
+
+### **Miscellaneous Tools**
+1. **Text Editors** (Experiments 11, 12)  
+   - Notepad, VS Code (for modifying test files).  
+2. **SpeedTest.net** (Experiment 12)  
+   - Optional network benchmarking.  
+
+---
+
+### **Key Features Demonstrated**
+- **Encryption**: VeraCrypt, Cryptomator, MEGA, pCloud.  
+- **Deduplication**: Dropbox, Duplicati.  
+- **Delta Encoding**: Dropbox.  
+- **Role-Based Access Control (RBAC)**: Google Drive.  
+- **Versioning**: Dropbox, TeamDrive.  
+- **2FA**: TeamDrive, MEGA, Google Drive.  
